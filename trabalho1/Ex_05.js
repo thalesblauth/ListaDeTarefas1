@@ -4,6 +4,11 @@ pessoa e determina a categoria de peso (baixo peso, peso normal,
 sobrepeso, obesidade) utilizando if-else.
 */
 
+// Pré-requisitos
+// Antes de prosseguir, garanta que você possui o Node.js instalado em sua máquina.
+// Instale as Dependências do Projeto: Dentro da pasta tarefas-prati-codifica/, execute o comando abaixo. Ele lerá o arquivo package.json e instalará as bibliotecas necessárias (como prompt-sync) na subpasta node_modules/:
+// npm install
+
 const prompt = require('prompt-sync')();
 
 const pesoTexto = prompt("Digite seu peso em kg (ex: 75.5): ");

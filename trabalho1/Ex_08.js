@@ -3,6 +3,11 @@ Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores
 iguais) e escreve-los em ordem crescente.
 */
 
+// Pré-requisitos
+// Antes de prosseguir, garanta que você possui o Node.js instalado em sua máquina.
+// Instale as Dependências do Projeto: Dentro da pasta tarefas-prati-codifica/, execute o comando abaixo. Ele lerá o arquivo package.json e instalará as bibliotecas necessárias (como prompt-sync) na subpasta node_modules/:
+// npm install
+
 const prompt = require('prompt-sync')();
 
 const valor1Texto = prompt("Digite o primeiro valor: ");

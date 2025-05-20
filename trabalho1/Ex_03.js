@@ -3,6 +3,11 @@ Implemente um programa que recebe uma nota de 0 a 10 e classifica
 como "Aprovado", "Recuperação", ou "Reprovado" utilizando if-else if.
 */
 
+// Pré-requisitos
+// Antes de prosseguir, garanta que você possui o Node.js instalado em sua máquina.
+// Instale as Dependências do Projeto: Dentro da pasta tarefas-prati-codifica/, execute o comando abaixo. Ele lerá o arquivo package.json e instalará as bibliotecas necessárias (como prompt-sync) na subpasta node_modules/:
+// npm install
+
 const prompt = require('prompt-sync')();
 
 const notaTexto = prompt("Digite a nota (entre 0 e 10): ");

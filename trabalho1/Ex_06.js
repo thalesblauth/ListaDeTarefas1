@@ -9,6 +9,11 @@ Triângulo escaleno: possui todos os lados diferentes (A<>B e B <> C [C<>A])
 Triângulo eqüilátero: possui todos os lados iguais (A=B e B=C)
 */
 
+// Pré-requisitos
+// Antes de prosseguir, garanta que você possui o Node.js instalado em sua máquina.
+// Instale as Dependências do Projeto: Dentro da pasta tarefas-prati-codifica/, execute o comando abaixo. Ele lerá o arquivo package.json e instalará as bibliotecas necessárias (como prompt-sync) na subpasta node_modules/:
+// npm install
+
 const prompt = require('prompt-sync')();
 
 const ladoATexto = prompt("Digite o comprimento do lado A: ");
